@@ -59,3 +59,36 @@ footer{
   height: 50px;
   background-color: #aaa;
 }
+
+/*レスポンシブ対応*/
+@media screen and (max-width: 768px) {
+    header{
+    width: 100%;
+  }
+  
+  main{
+    width: 100%;
+    display: block;
+    margin: 50px auto;
+  }
+  .main-box{
+    width: 90%;
+    margin: 20px auto;
+  }
+  .main-box:last-child {
+   margin:20px auto;
+}
+.box-pic1{
+   padding-top: 37%;
+ }
+ .box-pic2{
+   padding-top: 37%;
+ }
+ .box-pic3{
+   padding-top: 37%;
+ }
+ 
+  footer{
+    width: 100%;
+  }
+}
